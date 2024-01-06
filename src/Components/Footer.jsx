@@ -28,7 +28,7 @@ export default function Footer() {
       );
   };
   return (
-    <div className="bg-black min-h-96 justify-between">
+    <div className="bg-black min-h-96 justify-between items-center">
       <div className="flex flex-col md:flex-row justify-between p-5 md:p-10">
         <div className="flex-col items-center gap-2">
           <div className="flex items-center">
@@ -134,6 +134,12 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="flex items-center justify-center text-white h-16">
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} iNav Labs. All rights reserved.
+        </p>
       </div>
     </div>
   );
