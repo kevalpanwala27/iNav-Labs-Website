@@ -84,7 +84,7 @@ export default function AfterWhatWeDo() {
             <img src={soham} alt="shakti image" className="w-32 h-32 mb-1" />
             <p className="text-xs mt-1 font-semibold">SOHAM VYAS</p>
           </div>
-          
+
           <div className="text-center mb-4 md:mb-0 md:mr-6 mr-4">
             <img src={kunal} alt="shakti image" className="w-32 h-32 mb-1" />
             <p className="text-xs mt-1 font-semibold">KUNAL SAHOO</p>

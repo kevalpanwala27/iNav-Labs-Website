@@ -1,17 +1,17 @@
 import React from "react";
 import element1 from "../assets/element1.png";
-import image1 from "../assets/areaofexpertise1.png";
-import image2 from "../assets/areaofexpertise2.png";
-import image3 from "../assets/areaofexpertise3.png";
+import image1 from "../assets/areaofexpertise1.gif";
+import image2 from "../assets/areaofexpertise2.gif";
+import image3 from "../assets/areaofexpertise3.gif";
 
 const areaOfExpertiseData = [
   {
-    imageSrc: image1,
-    buttonText: "Robotics",
-  },
-  {
     imageSrc: image2,
     buttonText: "Autonomous",
+  },
+  {
+    imageSrc: image1,
+    buttonText: "Robotics",
   },
   {
     imageSrc: image3,
@@ -20,7 +20,7 @@ const areaOfExpertiseData = [
 ];
 
 const ExpertiseCard = ({ imageSrc, buttonText }) => (
-  <div className="max-w-md mx-auto shadow-lg overflow-hidden mb-16 p-4 md:p-0 transform transition-transform hover:scale-105" >
+  <div className="max-w-md mx-auto shadow-lg overflow-hidden mb-16 p-4 md:p-0 transform transition-transform hover:scale-105">
     <img
       className="w-full h-[200px] md:h-[250px] object-cover mb-2"
       src={imageSrc}

@@ -11,61 +11,80 @@ const Nav = () => {
   };
 
   const navItemVariants = {
-    hover: { scale: 1.1 },
+    rest: { scale: 1, borderColor: "transparent" },
+    hover: { scale: 1.1, borderColor: "" },
   };
-
   return (
     <header className="flex justify-between p-6 m-5">
       <div className="flex items-center gap-2">
-        {" "}
-        
-        <img src={logo} alt="company logo" className="w-14 h-14 rounded-2xl" />
+        <img
+          src={logo}
+          alt="company logo"
+          className="md:w-10 md:h-10 w-6 h-6 rounded-2xl"
+        />
         <div>
-          <span className="font-bold text-3xl text-green-500 tracking-widest">
+          <span className="font-semibold md:text-3xl text-xl text-green-500 tracking-wider font-LexendDeca">
             i
           </span>
         </div>
-        <span className="font-bold text-3xl tracking-widest">NAV LABS</span>
+        <span className="font-semibold md:text-3xl text-xl tracking-widest font-LexendDeca">
+          NAV LABS
+        </span>
       </div>
-      <div className="md:flex hidden md:visible gap-16 border border-gray-300 px-10 rounded-full shadow-md shadow-gray-200 items-center bg-stone-100">
+      <div className="md:flex hidden md:visible gap-10 border border-gray-400 px-10 rounded-full shadow-md shadow-gray-200 items-center bg-stone-100">
         <motion.div
           variants={navItemVariants}
           whileHover="hover"
-          className="hover:bg-gray-100 p-2 rounded-full cursor-pointer"
+          initial="rest"
+          className="hover:bg-gray-200 border hover:border-gray-500 rounded-full cursor-pointer transition-all duration-300 px-4 font-LexendDeca tracking-widest"
         >
-          <a className="text-md" href="#home">Home</a>
+          <a className="text-sm" href="#home">
+            HOME
+          </a>
         </motion.div>
         <motion.div
           variants={navItemVariants}
           whileHover="hover"
-          className="hover:bg-gray-100 p-2 rounded-full cursor-pointer"
+          initial="rest"
+          className="hover:bg-gray-200 border hover:border-gray-500 rounded-full cursor-pointer transition-all duration-300 px-4 font-LexendDeca tracking-widest"
         >
-          <a href="#service" className="text-md">Services</a>
+          <a href="#service" className="text-sm">
+            SERVICES
+          </a>
         </motion.div>
         <motion.div
           variants={navItemVariants}
           whileHover="hover"
-          className="hover:bg-gray-100 p-2 rounded-full cursor-pointer"
+          initial="rest"
+          className="hover:bg-gray-200 border hover:border-gray-500 rounded-full cursor-pointer transition-all duration-300 px-4 font-LexendDeca tracking-widest"
         >
-          <a href="#Whatwedo" className="text-md">About Us</a>
+          <a href="#Whatwedo" className="text-sm">
+            ABOUT US
+          </a>
         </motion.div>
         <motion.div
           variants={navItemVariants}
           whileHover="hover"
-          className="hover:bg-gray-100 p-2 rounded-full cursor-pointer"
+          initial="rest"
+          className="hover:bg-gray-200 border hover:border-gray-500 rounded-full cursor-pointer transition-all duration-300 px-4 font-LexendDeca tracking-widest"
         >
-          <a className="text-md" href="#team">Our Team</a>
+          <a className="text-sm" href="#team">
+            OUR TEAM
+          </a>
         </motion.div>
         <motion.div
           variants={navItemVariants}
           whileHover="hover"
-          className="hover:bg-gray-100 p-2 rounded-full cursor-pointer"
+          initial="rest"
+          className="hover:bg-gray-200 border hover:border-gray-500 rounded-full cursor-pointer transition-all duration-300 px-4 font-LexendDeca tracking-widest"
         >
-          <a className="text-md" href="#contactus">Contact Us</a>
+          <a className="text-sm" href="#contactus">
+            CONTACT US
+          </a>
         </motion.div>
       </div>
       <div className="md:hidden">
-        <button onClick={toggleNav} className="cursor-pointer">
+        <button onClick={toggleNav} className="cursor-pointer px-4">
           <FiAlignJustify />
         </button>
       </div>

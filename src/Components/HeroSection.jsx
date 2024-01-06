@@ -20,13 +20,13 @@ const HeroSection = () => {
           transition={{ delay: 0.5, duration: 1, ease: "easeInOut" }}
         />
         <motion.p
-          className="absolute font-LexendDeca text-center text-2xl md:text-7xl text-black tracking-widest top-16 z-0"
+          className="absolute font-LexendDeca text-center text-2xl md:text-7xl text-black tracking-tight top-16 z-0"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
-          style={{ fontFamily: "Lexend Deca" }}
+          style={{ fontfamily: "Lexend zetta" }}
         >
-          A U T O N O M O U S
+          A U T O N O U M O U S
         </motion.p>
       </motion.div>
     </div>
