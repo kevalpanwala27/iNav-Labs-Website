@@ -1,5 +1,5 @@
 import React from "react";
-import element2 from "../assets/element2.png";
+import element1 from "../assets/element1.png";
 import image from "../assets/iNav-2.png";
 
 const Whatwedo = () => {
@@ -8,9 +8,9 @@ const Whatwedo = () => {
      <div className="flex flex-row ml-4 md:ml-10 mr-4 md:mr-10 p-6">
         <div className="md:w-1/2">
           <img
-            src={element2}
+            src={element1}
             alt="element"
-            className="md:w-[80px] md:h-[80px] w-[30px] h-[30px] rotate-45"
+            className="md:w-[60px] md:h-[60px] w-[30px] h-[30px] mt-2"
           />
         </div>
         <div className="md:w-3/4 justify-end flex ml-20 mt-2">

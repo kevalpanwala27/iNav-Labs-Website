@@ -26,7 +26,7 @@ const HeroSection = () => {
           transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
           style={{ fontfamily: "Lexend zetta" }}
         >
-          A U T O N O U M O U S
+          A U T O N O M O U S
         </motion.p>
       </motion.div>
     </div>

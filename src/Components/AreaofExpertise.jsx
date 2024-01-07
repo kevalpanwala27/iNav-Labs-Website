@@ -39,8 +39,8 @@ const AreaofExpertise = () => {
     <div className="bg-black" id="service">
       {" "}
       {/* Added class and set height to 100% */}
-      <div className="flex flex-col md:flex-row ml-4 md:ml-10 mr-4 md:mr-10 py-10">
-        <div className="flex text-white md:w-1/2">
+      <div className="flex md:flex-row ml-4 md:ml-10 mr-4 md:mr-10 py-10">
+        <div className="flex text-white w-full md:w-1/2">
           <h1 className="md:text-4xl text-2xl font-LexendDeca ml-8">
             Area of Expertise
           </h1>
@@ -48,7 +48,7 @@ const AreaofExpertise = () => {
         <div className="flex justify-end md:w-1/2">
           <img
             src={element1}
-            className="md:w-[60px] md:h-[60px] w-[30px] h-[30px] mr-16"
+            className="md:w-[60px] md:h-[60px] w-[30px] h-[30px]"
             alt="Element"
           />
         </div>
