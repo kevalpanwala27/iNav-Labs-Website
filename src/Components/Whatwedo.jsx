@@ -5,7 +5,7 @@ import image from "../assets/iNav-2.png";
 const Whatwedo = () => {
   return (
     <div className="bg-black min-h-screen" id="Whatwedo">
-     <div className="flex flex-row ml-4 md:ml-10 mr-4 md:mr-10 p-6">
+      <div className="flex flex-row ml-4 md:ml-10 mr-4 md:mr-10 p-6">
         <div className="md:w-1/2">
           <img
             src={element1}
@@ -46,7 +46,13 @@ const Whatwedo = () => {
             solutions.
           </p>
           <button className="bg-white text-black font-LexendDeca w-full md:w-[250px] h-[60px] mt-5 rounded-full">
-            Blogs
+            <a
+              href="https://www.linkedin.com/company/inavlabs/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Know More
+            </a>
           </button>
         </div>
         <div className="md:w-1/2 p-4">

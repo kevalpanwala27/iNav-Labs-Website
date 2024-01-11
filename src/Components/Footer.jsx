@@ -46,62 +46,26 @@ export default function Footer() {
               </span>
             </div>
           </div>
-          <div className="flex">
-            {/* <form
-              action="/submit"
-              method="post"
-              className="flex flex-col md:items-center md:max-w-md mx-auto mt-4 md:mt-0"
-              id="contactus"
-            >
-              <textarea
-                id="email"
-                name="email"
-                rows="1"
-                placeholder="Enter your mail here"
-                className="text-white rounded-2xl p-3 bg-transparent border-2 border-white mb-4 resize-none focus:outline-none focus:border-green-500 md:w-[300px]"
-              ></textarea>
-              <textarea
-                id="email"
-                name="email"
-                rows="1"
-                placeholder="Enter your mail here"
-                className="text-white rounded-2xl p-3 bg-transparent border-2 border-white mb-4 resize-none focus:outline-none focus:border-green-500 md:w-[300px]"
-              ></textarea>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                placeholder="Enter your message here"
-                className="text-white rounded-2xl p-3 bg-transparent border-2 border-white mb-4 resize-none focus:outline-none focus:border-green-500 md:w-[300px]"
-              ></textarea>
-              <button
-                type="submit"
-                className="bg-green-500 text-white p-3 rounded-xl hover:bg-green-800 transition duration-300 w-full md:w-[100px]"
-              >
-                Send
-              </button>
-            </form> */}
+          <div className="flex-col">
+          <p className="text-white">For any queries, give us message below!</p>
             <form
               ref={form}
               onSubmit={sendEmail}
               className="flex flex-col md:items-center md:max-w-md mx-auto mt-4 md:mt-0"
               id="contactus"
             >
-              <label>Name</label>
               <input
                 type="text"
                 name="user_name"
                 className="text-white rounded-2xl p-3 bg-transparent border-2 border-white mb-4 resize-none focus:outline-none focus:border-green-500 md:w-[300px]"
                 placeholder="Enter your name here"
               />
-              <label>Email</label>
               <input
                 type="email"
                 name="user_email"
                 className="text-white rounded-2xl p-3 bg-transparent border-2 border-white mb-4 resize-none focus:outline-none focus:border-green-500 md:w-[300px]"
                 placeholder="Enter your email here"
               />
-              <label>Message</label>
               <textarea
                 name="message"
                 className="text-white rounded-2xl p-3 bg-transparent border-2 border-white mb-4 resize-none focus:outline-none focus:border-green-500 md:w-[300px]"
