@@ -7,7 +7,6 @@ import lines1 from "../assets/lines1.png";
 import lines2 from "../assets/lines2.png";
 import anuj from "../assets/anuj.png";
 import soham from "../assets/soham.png";
-import chintan from "../assets/image9.png";
 
 export default function AfterWhatWeDo() {
   return (
