@@ -73,11 +73,6 @@ export default function AfterWhatWeDo() {
             <p className="text-xs mt-1 text-green-500">MENTOR</p>
           </div>
           <div className="text-center mb-4 md:mb-0 md:mr-6 mr-4">
-            <img src={chintan} alt="shakti image" className="w-32 h-32 mb-1" />
-            <p className="text-xs mt-1 font-semibold">DR. CHINTAN BHATT</p>
-            <p className="text-xs mt-1 text-green-500">MENTOR</p>
-          </div>
-          <div className="text-center mb-4 md:mb-0 md:mr-6 mr-4">
             <img src={soham} alt="shakti image" className="w-32 h-32 mb-1" />
             <p className="text-xs mt-1 font-semibold">SOHAM VYAS</p>
             <p className="text-xs mt-1 text-green-500">MENTOR</p>
